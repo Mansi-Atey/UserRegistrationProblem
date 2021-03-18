@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UserRegistrationUnitTest
+namespace UserRegistrationParameterized
 {
-   public class Program
+    public class Program
     {
-       public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             RegexValidation regexValidation = new RegexValidation();
             Console.WriteLine("Enter Your First Name");

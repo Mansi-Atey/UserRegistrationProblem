@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using UserRegistrationUnitTest;
+using UserRegistrationParameterized;
 
-namespace UserRegistrationMsTest1
+namespace UnitTestingParameterized
 {
     [TestClass]
     public class UnitTest1
