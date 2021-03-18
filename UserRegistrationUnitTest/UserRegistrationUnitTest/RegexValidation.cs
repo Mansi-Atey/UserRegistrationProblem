@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace UserRegistrationClearEmail
+namespace UserRegistrationUnitTest
 {
-    class RegexValidation
+   public class RegexValidation
     {
         public const string REGEX_FIRSTNAME = "^[A-Z]{1}[A-Za-z]{2,}$";
         public const string REGEX_LASTNAME = "^[A-Z]{1}[A-Za-z]{2,}$";

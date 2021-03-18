@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UserRegistrationClearEmail
+namespace UserRegistrationUnitTest
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             RegexValidation regexValidation = new RegexValidation();
             Console.WriteLine("Enter Your First Name");
@@ -50,4 +50,5 @@ namespace UserRegistrationClearEmail
             }
         }
     }
-}
+    }
+
